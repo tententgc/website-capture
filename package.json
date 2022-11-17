@@ -1,0 +1,31 @@
+{
+  "name": "capture-website-image",
+  "version": "1.0.0",
+  "description": "this is capture website for create new page pdf file or image file to send",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tententgc/Website-Capture.git"
+  },
+  "keywords": [
+    "capture"
+  ],
+  "author": "tententgc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tententgc/Website-Capture/issues"
+  },
+  "homepage": "https://github.com/tententgc/Website-Capture#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "pdfkit": "^0.13.0",
+    "puppeteer": "^19.2.2"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "^0.12.8"
+  }
+}
