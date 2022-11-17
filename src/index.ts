@@ -6,7 +6,6 @@ import PDFDocument from "pdfkit";
 const URL = "https://github.com/";
 
 const path: string[] = [ 
-    "",
     "tententgc", 
     "tententgc2",
 ]
